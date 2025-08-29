@@ -4,9 +4,9 @@
 
 This repository showcases my hands-on experience in various aspects of network administration, including **Cisco switch and router configuration**, **VLANs for network segmentation**, and comprehensive **firewall rule management** utilizing powerful tools like **pfSense** and **Suricata**. Through a series of practical projects, this collection provides detailed insights into my ability to effectively set up, secure, troubleshoot, and optimize diverse network infrastructures, ensuring robust and efficient connectivity.
 
-### Projects
+### Projects - (Markdown Write-ups Coming Soon)
 
-* [**Essential Switch Configuration:**](https://github.com/iagsalazar1-cs/Network-Administration-and-Labs/tree/main/01-Essential-Switch-Configuration) Configured and verified switch and PC settings in Cisco Packet Tracer to establish basic network connectivity, secure communications, and test functionality for a small LAN.
+* [**Essential Switch Configuration:**](https://github.com/iagsalazar1-cs/Network-Administration-and-Labs/tree/main/01-Essential-Switch-Configuration) Configured and verified switch and PC settings in Cisco Packet Tracer to establish basic network connectivity, secure communications, and test functionality for a small LAN. **(In Progress - Aug. 29th, 2025)**
 
 * [**Switch Port Security Configuration:**](https://www.google.com/search?q=https://github.com/iagsalazar1-cs/Network-Administration-and-Labs/tree/main/02-Switch-Port-Security-Configuration) Configured and tested port security on a Cisco switch in Cisco Packet Tracer, populating MAC address tables, applying policies, and validating against violations.
 
