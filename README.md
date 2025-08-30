@@ -6,9 +6,9 @@ This repository showcases my hands-on experience in various aspects of network a
 
 ### Projects - (Markdown Write-ups Coming Soon)
 
-* [**Essential Switch Configuration:**](https://github.com/iagsalazar1-cs/Network-Administration-and-Labs/tree/main/01-Essential-Switch-Configuration) Configured and verified switch and PC settings in Cisco Packet Tracer to establish basic network connectivity, secure communications, and test functionality for a small LAN. **(In Progress - Aug. 29th, 2025)**
+* [**Essential Switch Configuration:**](https://github.com/iagsalazar1-cs/Network-Administration-and-Labs/tree/main/01-Essential-Switch-Configuration) Configured and verified switch and PC settings in Cisco Packet Tracer to establish basic network connectivity, secure communications, and test functionality for a small LAN. 
 
-* [**Switch Port Security Configuration:**](https://www.google.com/search?q=https://github.com/iagsalazar1-cs/Network-Administration-and-Labs/tree/main/02-Switch-Port-Security-Configuration) Configured and tested port security on a Cisco switch in Cisco Packet Tracer, populating MAC address tables, applying policies, and validating against violations.
+* [**Switch Port Security Configuration:**](https://www.google.com/search?q=https://github.com/iagsalazar1-cs/Network-Administration-and-Labs/tree/main/02-Switch-Port-Security-Configuration) Configured and tested port security on a Cisco switch in Cisco Packet Tracer, populating MAC address tables, applying policies, and validating against violations. **(In Progress - Aug. 30th, 2025)**
 
 * [**Initial Router Configuration:**](https://www.google.com/search?q=https://github.com/iagsalazar1-cs/Network-Administration-and-Labs/tree/main/03-Initial-Router-Configuration) Practiced initial router setup in Cisco Packet Tracer, connecting devices, assigning IP addresses, and ensuring fundamental connectivity.
 
