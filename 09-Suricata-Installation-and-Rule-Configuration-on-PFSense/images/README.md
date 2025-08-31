@@ -1,1 +1,1 @@
-
+This images folder contains all the screenshots of the main `README.md` file of the "Suricata Installation and Rule Configuration on PFSense" project. These visuals are a crucial component of the lab, helping users to navigate the interface and verify that each step has been completed correctly through the `Suricata` installation and configuration process on the `pfSense firewall`. 
