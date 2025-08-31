@@ -36,6 +36,8 @@ Configured port security on a `Cisco switch` using `Cisco Packet Tracer`. The ob
 
 * **Task 7: Verify Interface Recovery**: Verify that the interface returned to its normal state by performing a connectivity test from `Mike's PC` to `Joey's PC`.
 
+---
+
 ### Step-by-Step
 
 ### Task 1: Populate and Display the MAC Address Table
