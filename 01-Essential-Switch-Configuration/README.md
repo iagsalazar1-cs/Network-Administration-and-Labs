@@ -1,6 +1,6 @@
 # Essential Switch Configuration in Packet Tracer
 
-### Overview
+### Project Overview
 
 This project focuses on configuring and verifying switch and PC settings within **Cisco Packet Tracer** to establish basic network connectivity. The tasks involve setting up communication between endpoints, configuring network security settings, and testing connectivity. The network for this project consists of a Local Area Network (LAN) with a switch (`S1-Floor1`) connecting two PCs: `John's PC` and `Micky's PC`. An `Admin PC` is also present, used for configuration but not directly connected to the switch's network ports.
 
@@ -20,7 +20,7 @@ This project focuses on configuring and verifying switch and PC settings within 
 
 7. Examine the switch's `MAC` address table and save switch configurations.
 
-### Project Tasks
+### Task Summary
 
 * **Task 1:** Connect to the Switch, Explore `CLI` Modes, and Set System Time: Connect `Admin PC` to switch console, explore user `EXEC` mode, enter privileged `EXEC`, set switch time.
 
@@ -35,6 +35,10 @@ This project focuses on configuring and verifying switch and PC settings within 
 * **Task 6:** Display Switch Information: Display `FastEthernet0/1` interface info and `MAC` address table.
 
 * **Task 7:** Display Running Configuration: Display switch's running configuration.
+
+---
+
+### Step-by-Step
 
 ### Task 1: Connect to the Switch, Explore CLI Modes, and Set System Time
 
