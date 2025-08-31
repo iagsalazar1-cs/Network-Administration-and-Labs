@@ -34,9 +34,12 @@ This lab is designed to practice the initial router configuration in a small net
 1.  Connected `R1`'s `GigabitEthernet 0/0/0` to `S1`'s `GigabitEthernet 0/1`.
 2.  Connected `R1`'s `GigabitEthernet 0/0/1` to `S2`'s `GigabitEthernet 0/1`.
 
+![Figure 2 - GigabitEthernet Connections](https://raw.githubusercontent.com/iagsalazar1-cs/Network-Administration-and-Labs/main/03-Initial-Router-Configuration/images/Figure02_GigabitEthernet_Connections.png)
+
+
 ### Task 2: Configure R1's GigabitEthernet 0/0/0 Interface
 
-![Figure 2 - Configuring Interface Gig 0/0/0](https://raw.githubusercontent.com/iagsalazar1-cs/Network-Administration-and-Labs/main/03-Initial-Router-Configuration/images/Figure02_Configuring_Interface_Gig_0_0_0.png)
+![Figure 3 - Configuring Interface Gig 0/0/0](https://raw.githubusercontent.com/iagsalazar1-cs/Network-Administration-and-Labs/main/03-Initial-Router-Configuration/images/Figure03_Configuring_Interface_Gig_0_0_0.png)
 
 * Connected to the `R1` router's CLI, then typed `enable` followed by `configure terminal` to enter global configuration.
 * Entered interface configuration for `GigabitEthernet 0/0/0` using the `interface gigabitethernet 0/0/0` command, then assigned the IP address `192.168.0.1` and subnet mask `255.255.255.0` using the `ip address 192.168.0.1 255.255.255.0` command.
@@ -44,28 +47,35 @@ This lab is designed to practice the initial router configuration in a small net
 
 ### Task 3: Configure R1’s GigabitEthernet 0/0/1 Interface
 
-![Figure 3 - Configuring Interface Gig 0/0/1](https://raw.githubusercontent.com/iagsalazar1-cs/Network-Administration-and-Labs/main/03-Initial-Router-Configuration/images/Figure03_Configuring_Interface_Gig_0_0_1.png)
+![Figure 4 - Configuring Interface Gig 0/0/1](https://raw.githubusercontent.com/iagsalazar1-cs/Network-Administration-and-Labs/main/03-Initial-Router-Configuration/images/Figure04_Configuring_Interface_Gig_0_0_1.png)
 
 * Entered interface configuration for `GigabitEthernet 0/0/1` and assigned the IP address `10.0.0.1` with subnet mask `255.255.255.0` using the `interface gigabitethernet 0/0/1` and `ip address 10.0.0.1 255.255.255.0` commands.
 * Enabled the interface by entering `no shutdown` and typed `Exit` to go back to global configuration.
 
 ### Task 4: Save and Display Router IP Configuration
 
-![Figure 4 - Saving and Verifying Configuration](https://raw.githubusercontent.com/iagsalazar1-cs/Network-Administration-and-Labs/main/03-Initial-Router-Configuration/images/Figure04_Saving_and_Verifying_Configuration.png)
+![Figure 5 - Saving Configuration](https://raw.githubusercontent.com/iagsalazar1-cs/Network-Administration-and-Labs/main/03-Initial-Router-Configuration/images/Figure05_Saving_Configuration.png)
 
 * Exit global configuration mode, saved the configurations with the command `copy running-config startup-config`, in `R1`’s privileged EXEC mode, and verified its IP configuration with the command `show ip interface brief`.
 
+![Figure 6 - Verifying Configuration](https://raw.githubusercontent.com/iagsalazar1-cs/Network-Administration-and-Labs/main/03-Initial-Router-Configuration/images/Figure06_Verifying_Configuration.png)
+
 ### Task 5: Configure PC IP Addresses
 
-![Figure 5 - PC IP Configuration](https://raw.githubusercontent.com/iagsalazar1-cs/Network-Administration-and-Labs/main/03-Initial-Router-Configuration/images/Figure05_PC_IP_Configuration.png)
+![Figure 7 - PC IP Configuration](https://raw.githubusercontent.com/iagsalazar1-cs/Network-Administration-and-Labs/main/03-Initial-Router-Configuration/images/Figure07_PC_IP_Configuration.png)
 
 * Configured the PC IPs:
     1.  Dan's IP `192.168.0.2` and Gil's IP `192.168.0.3` with gateway `192.168.0.1`.
     2.  Jack's IP `10.0.0.2` and Sean's IP `10.0.0.3` with gateway `10.0.0.1`.
     3.  All with Subnet Mask `255.255.255.0`.
 
+![Figure 8 - PC IP Configuration 2](https://raw.githubusercontent.com/iagsalazar1-cs/Network-Administration-and-Labs/main/03-Initial-Router-Configuration/images/Figure08_PC_IP_Configuration_2.png)
+
 ### Task 6: Verify Network Connectivity
 
-![Figure 6 - Verifying Connectivity](https://raw.githubusercontent.com/iagsalazar1-cs/Network-Administration-and-Labs/main/03-Initial-Router-Configuration/images/Figure06_Verifying_Connectivity.png)
+![Figure 9 - Verifying Connectivity](https://raw.githubusercontent.com/iagsalazar1-cs/Network-Administration-and-Labs/main/03-Initial-Router-Configuration/images/Figure06_Verifying_Connectivity.png)
 
 * From Dan's PC's command prompt verified connectivity to Sean's PC with the command `ping 10.0.0.3`.
+
+![Figure 10 - Verifying Connectivity 2](https://raw.githubusercontent.com/iagsalazar1-cs/Network-Administration-and-Labs/main/03-Initial-Router-Configuration/images/Figure10_Verifying_Connectivity_2.png)
+
