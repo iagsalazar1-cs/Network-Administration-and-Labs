@@ -1,1 +1,1 @@
-
+This folder contains all the screenshots and diagrams for the main `README.md` for the "Configuring VLANs and Trunks" project. The images visually document each step of the process, from issuing CLI commands to verifying the successful configuration of VLANs, trunking, and network connectivity.
