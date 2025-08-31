@@ -1,1 +1,1 @@
-
+This folder contains all the images used in the main `README.md` file of the "Network Address Translation Configurations (NAT)" project. Each image is a figure that corresponds to a specific task or verification step in the lab for configuring and verifying `Network Address Translation (NAT)` on `Cisco` routers.
