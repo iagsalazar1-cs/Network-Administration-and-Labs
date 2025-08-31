@@ -73,7 +73,7 @@ This lab is designed to practice the initial router configuration in a small net
 
 ### Task 6: Verify Network Connectivity
 
-![Figure 9 - Verifying Connectivity](https://raw.githubusercontent.com/iagsalazar1-cs/Network-Administration-and-Labs/main/03-Initial-Router-Configuration/images/Figure06_Verifying_Connectivity.png)
+![Figure 9 - Verifying Connectivity](https://raw.githubusercontent.com/iagsalazar1-cs/Network-Administration-and-Labs/main/03-Initial-Router-Configuration/images/Figure09_Verifying_Connectivity.png)
 
 * From Dan's PC's command prompt verified connectivity to Sean's PC with the command `ping 10.0.0.3`.
 
