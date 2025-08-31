@@ -1,1 +1,1 @@
-
+This folder contains the visual documentation for the "Configuring Static Routes on a Cisco Router" project. The images include screenshots of each key task, such as the initial routing table analysis, the command-line interface for configuring static routes on each router, and the final verification of connectivity using ping and traceroute.
