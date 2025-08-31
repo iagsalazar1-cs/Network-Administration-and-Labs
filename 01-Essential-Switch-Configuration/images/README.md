@@ -1,1 +1,1 @@
-This folder contains all the visual documentation for the "Essential Switch Configuration" project. The images include screenshots of each major step, from initial CLI access and configuration to the final verification of network connectivity and saved settings.
+This folder contains all the images and figures referenced in the main `README.md` for the "Essential Switch Configuration" project. The images include screenshots of each major step, from initial CLI access and configuration to the final verification of network connectivity and saved settings.
