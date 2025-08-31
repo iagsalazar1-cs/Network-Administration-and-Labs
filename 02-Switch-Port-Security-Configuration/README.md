@@ -1,5 +1,4 @@
-
-# Configuration and Verification of Switch Port Security
+# Switch Port Security Configuration
 
 ### Project Overview
 
@@ -41,7 +40,7 @@ Configured port security on a `Cisco switch` using `Cisco Packet Tracer`. The ob
 
 ### Task 1: Populate and Display the MAC Address Table
 
-`![Figure 1 - Mike's CMD and Ping](https://github.com/iagsalazar1-cs/Network-Administration-and-Labs/blob/main/02-Switch-Port-Security-Configuration/images/Figure01_Mikes_CMD_and_Ping.png)`
+![Figure 1 - Mike's CMD and Ping](https://github.com/iagsalazar1-cs/Network-Administration-and-Labs/blob/main/02-Switch-Port-Security-Configuration/images/Figure01_Mikes_CMD_and_Ping.png)
 
 * Accessed the Command Prompt of Mike’s PC and executed the following commands: `ping 10.0.0.2`, `ping 10.0.0.3`, `ping 10.0.0.4`.
 
@@ -49,11 +48,11 @@ Configured port security on a `Cisco switch` using `Cisco Packet Tracer`. The ob
 
 * Executed `show mac-address-table` in the switch's CLI to display the populated MAC Address Table.
 
-`![Figure 2 - MAC Address Table in Switch](https://github.com/iagsalazar1-cs/Network-Administration-and-Labs/blob/main/02-Switch-Port-Security-Configuration/images/Figure02_MAC_Address_Table_in_Switch.png)`
+![Figure 2 - MAC Address Table in Switch](https://github.com/iagsalazar1-cs/Network-Administration-and-Labs/blob/main/02-Switch-Port-Security-Configuration/images/Figure02_MAC_Address_Table_in_Switch.png)
 
 ### Task 2: Enable Port Security and Configure Authorized MAC Addresses on FastEthernet 0/1-3
 
-`![Figure 3 - Entering Privileged EXEC Mode](https://github.com/iagsalazar1-cs/Network-Administration-and-Labs/blob/main/02-Switch-Port-Security-Configuration/images/Figure03_Privileged_EXEC_Mode.png)`
+![Figure 3 - Entering Privileged EXEC Mode](https://github.com/iagsalazar1-cs/Network-Administration-and-Labs/blob/main/02-Switch-Port-Security-Configuration/images/Figure03_Privileged_EXEC_Mode.png)
 
 * Entered privileged EXEC mode, then global configuration with `enable` and `configure terminal`.
 
@@ -63,11 +62,11 @@ Configured port security on a `Cisco switch` using `Cisco Packet Tracer`. The ob
 
 * Entered the `interface fastethernet 0/3` settings and configured its MAC Address to be sticky with the command `switchport port-security mac-address sticky`.
 
-`![Figure 4 - Configuring Sticky MAC Address](https://github.com/iagsalazar1-cs/Network-Administration-and-Labs/blob/main/02-Switch-Port-Security-Configuration/images/Figure04_Sticky_MAC_Address.png)`
+![Figure 4 - Configuring Sticky MAC Address](https://github.com/iagsalazar1-cs/Network-Administration-and-Labs/blob/main/02-Switch-Port-Security-Configuration/images/Figure04_Sticky_MAC_Address.png)
 
 ### Task 3: Configure Violation Modes on FastEthernet 0/1, 0/2, and 0/3
 
-`![Figure 5 - Configuring Shutdown Violation Mode](https://github.com/iagsalazar1-cs/Network-Administration-and-Labs/blob/main/02-Switch-Port-Security-Configuration/images/Figure05_Shutdown_Violation.png)`
+![Figure 5 - Configuring Shutdown Violation Mode](https://github.com/iagsalazar1-cs/Network-Administration-and-Labs/blob/main/02-Switch-Port-Security-Configuration/images/Figure05_Shutdown_Violation.png)
 
 * Entered the settings of `interface fastethernet 0/1` and configured the violation mode to Shutdown with the commands: `Interface fastethernet 0/1` and `switchport port-security violation shutdown`.
 
@@ -75,11 +74,11 @@ Configured port security on a `Cisco switch` using `Cisco Packet Tracer`. The ob
 
 * Entered the settings of `interface fastethernet 0/3` and configured the violation mode to Protect with the commands: `Interface fastethernet 0/3` and `switchport port-security violation protect`.
 
-`![Figure 6 - Configuring Protect Violation Mode](https://github.com/iagsalazar1-cs/Network-Administration-and-Labs/blob/main/02-Switch-Port-Security-Configuration/images/Figure06_Protect_Violation.png)`
+![Figure 6 - Configuring Protect Violation Mode](https://github.com/iagsalazar1-cs/Network-Administration-and-Labs/blob/main/02-Switch-Port-Security-Configuration/images/Figure06_Protect_Violation.png)
 
 ### Task 4: Disable Unused Ports and Save Switch Configuration
 
-`![Figure 7 - Disabling Unused Ports](https://github.com/iagsalazar1-cs/Network-Administration-and-Labs/blob/main/02-Switch-Port-Security-Configuration/images/Figure07_Disabling_Unused_Ports.png)`
+![Figure 7 - Disabling Unused Ports](https://github.com/iagsalazar1-cs/Network-Administration-and-Labs/blob/main/02-Switch-Port-Security-Configuration/images/Figure07_Disabling_Unused_Ports.png)
 
 * Disabled the remaining fast ethernet interfaces by entering the range settings with the commands: `interface range fastethernet 0/5-24` and `shutdown`.
 
@@ -87,11 +86,11 @@ Configured port security on a `Cisco switch` using `Cisco Packet Tracer`. The ob
 
 * Exited global configuration mode and saved the current configuration using the command `copy running-config startup-config`.
 
-`![Figure 8 - Saving Configuration](https://github.com/iagsalazar1-cs/Network-Administration-and-Labs/blob/main/02-Switch-Port-Security-Configuration/images/Figure08_Saving_Configuration.png)`
+![Figure 8 - Saving Configuration](https://github.com/iagsalazar1-cs/Network-Administration-and-Labs/blob/main/02-Switch-Port-Security-Configuration/images/Figure08_Saving_Configuration.png)
 
 ### Task 5: Verify Port Security Settings and Test Port Security Violation
 
-`![Figure 9 - Verifying Port Security Settings](https://github.com/iagsalazar1-cs/Network-Administration-and-Labs/blob/main/02-Switch-Port-Security-Configuration/images/Figure09_Verifying_Port_Security.png)`
+![Figure 9 - Verifying Port Security Settings](https://github.com/iagsalazar1-cs/Network-Administration-and-Labs/blob/main/02-Switch-Port-Security-Configuration/images/Figure09_Verifying_Port_Security.png)
 
 * Verified port security by displaying the current violation modes with the command `show-port-security`.
 
@@ -99,11 +98,11 @@ Configured port security on a `Cisco switch` using `Cisco Packet Tracer`. The ob
 
 * Then executed `ping 10.0.0.3`. The ping failed since the MAC Address was fixed previously.
 
-`![Figure 10 - Ping Failure](https://github.com/iagsalazar1-cs/Network-Administration-and-Labs/blob/main/02-Switch-Port-Security-Configuration/images/Figure10_Ping_Failure.png)`
+![Figure 10 - Ping Failure](https://github.com/iagsalazar1-cs/Network-Administration-and-Labs/blob/main/02-Switch-Port-Security-Configuration/images/Figure10_Ping_Failure.png)
 
 ### Task 6: Verify Err-Disabled State and Recover from Err-Disabled State
 
-`![Figure 11 - Reconnecting PC](https://github.com/iagsalazar1-cs/Network-Administration-and-Labs/blob/main/02-Switch-Port-Security-Configuration/images/Figure11_Reconnecting_PC.png)`
+![Figure 11 - Reconnecting PC](https://github.com/iagsalazar1-cs/Network-Administration-and-Labs/blob/main/02-Switch-Port-Security-Configuration/images/Figure11_Reconnecting_PC.png)
 
 * Reconnected Mike’s PC back to the switch.
 
@@ -111,11 +110,11 @@ Configured port security on a `Cisco switch` using `Cisco Packet Tracer`. The ob
 
 * Entered `interface fastethernet 0/1` settings with `interface fastethernet 0/1` and re-enabled the interface with the commands `shutdown` and `no shutdown`.
 
-`![Figure 12 - Re-enabling Interface](https://github.com/iagsalazar1-cs/Network-Administration-and-Labs/blob/main/02-Switch-Port-Security-Configuration/images/Figure12_Re-enabling_Interface.png)`
+![Figure 12 - Re-enabling Interface](https://github.com/iagsalazar1-cs/Network-Administration-and-Labs/blob/main/02-Switch-Port-Security-Configuration/images/Figure12_Re-enabling_Interface.png)
 
 ### Task 7: Verify Interface Recovery
 
-`![Figure 13 - Connectivity Test](https://github.com/iagsalazar1-cs/Network-Administration-and-Labs/blob/main/02-Switch-Port-Security-Configuration/images/Figure13_Connectivity_Test.png)`
+![Figure 13 - Connectivity Test](https://github.com/iagsalazar1-cs/Network-Administration-and-Labs/blob/main/02-Switch-Port-Security-Configuration/images/Figure13_Connectivity_Test.png)
 
 * Performed a connectivity test from Mike's PC to Joey's PC for interface normal state verification:
 
