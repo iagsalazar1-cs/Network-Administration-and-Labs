@@ -4,7 +4,7 @@
 
 This repository showcases my hands-on experience in various aspects of network administration, including **Cisco switch and router configuration**, **VLANs for network segmentation**, and comprehensive **firewall rule management** utilizing powerful tools like **pfSense** and **Suricata**. Through a series of practical projects, this collection provides detailed insights into my ability to effectively set up, secure, troubleshoot, and optimize diverse network infrastructures, ensuring robust and efficient connectivity.
 
-### Projects - (Markdown Write-ups Coming Soon)
+### Projects 
 
 * [**Essential Switch Configuration:**](https://github.com/iagsalazar1-cs/Network-Administration-and-Labs/tree/main/01-Essential-Switch-Configuration) Configured and verified switch and PC settings in Cisco Packet Tracer to establish basic network connectivity, secure communications, and test functionality for a small LAN. 
 
@@ -14,7 +14,7 @@ This repository showcases my hands-on experience in various aspects of network a
 
 * [**Configuring Static Routes:**](https://www.google.com/search?q=https://github.com/iagsalazar1-cs/Network-Administration-and-Labs/tree/main/04-Configuring-Static-Routes) Configured IPv4 static routes on Cisco routers, establishing network connectivity between three LANs and an external network through manual routing table setup.
 
-* [**Configuring VLANs and Trunks:**](https://www.google.com/search?q=https://github.com/iagsalazar1-cs/Network-Administration-and-Labs/tree/main/05-Configuring-VLANs-and-Trunks) Configured Virtual Local Area Networks (VLANs) and trunking on Cisco switches to segment networks for improved performance, enhanced security, and streamlined management. **(In Progress - Aug. 30th, 2025)**
+* [**Configuring VLANs and Trunks:**](https://www.google.com/search?q=https://github.com/iagsalazar1-cs/Network-Administration-and-Labs/tree/main/05-Configuring-VLANs-and-Trunks) Configured Virtual Local Area Networks (VLANs) and trunking on Cisco switches to segment networks for improved performance, enhanced security, and streamlined management. 
 
 * [**Implementing Access Control Lists:**](https://www.google.com/search?q=https://github.com/iagsalazar1-cs/Network-Administration-and-Labs/tree/main/06-Implementing-Access-Control-Lists) Enhanced network security by implementing and verifying standard and extended Access Control Lists (ACLs) on Cisco routers to filter traffic based on IP addresses.
 
