@@ -1,4 +1,4 @@
-# Switch Port Security Configuration
+# Configuration and Verification of Switch Port Security
 
 ### Project Overview
 
