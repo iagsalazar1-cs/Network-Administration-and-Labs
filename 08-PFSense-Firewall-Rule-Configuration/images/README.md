@@ -1,1 +1,1 @@
-
+The images folder contains all the visual assets for the main `README.md` file of the "PfSense Firewall Rule Configuration" project. These screenshots correspond to each step in the pfSense `firewall` configuration tasks and are essential for guiding users through the hands-on tasks and verifying the successful completion of each step.
