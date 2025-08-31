@@ -1,1 +1,1 @@
-
+This directory holds all the images and figures referenced in the main project `README.md` file of the "Implementing Access Control Lists" project. The images are snapshots of `Cisco` router configurations and command-line interfaces, illustrating the step-by-step process and verification of the implemented `ACLs`.
