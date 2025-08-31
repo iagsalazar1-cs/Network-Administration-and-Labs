@@ -21,7 +21,7 @@ This lab focuses on `Suricata` (`Intrusion Detection System`/`Intrusion Preventi
 
 ---
 
-### Task 1: Accessing `PfSense` & `Suricata` Installation from the `Package Manager`
+### Task 1: Accessing PfSense & Suricata Installation from the Package Manager
 
 ![Figure 1 - Accessing PfSense & Suricata Installation](https://github.com/iagsalazar1-cs/Network-Administration-and-Labs/blob/main/09-Suricata-Installation-and-Rule-Configuration-on-PFSense/images/Figure01_Accessing_PfSense.png)
 
@@ -31,7 +31,7 @@ This lab focuses on `Suricata` (`Intrusion Detection System`/`Intrusion Preventi
 
 ![Figure 2 - Suricata Installation Verified](https://github.com/iagsalazar1-cs/Network-Administration-and-Labs/blob/main/09-Suricata-Installation-and-Rule-Configuration-on-PFSense/images/Figure02_Suricata_Installation_Verified.png)
 
-### Task 2: Global Settings Navigation & `ETOpen` Rules Configuration
+### Task 2: Global Settings Navigation & ETOpen Rules Configuration
 
 ![Figure 3 - Global Settings Navigation & ETOpen Rules Configuration](https://github.com/iagsalazar1-cs/Network-Administration-and-Labs/blob/main/09-Suricata-Installation-and-Rule-Configuration-on-PFSense/images/Figure03_Global_Settings_Navigation.png)
 
@@ -51,7 +51,7 @@ This lab focuses on `Suricata` (`Intrusion Detection System`/`Intrusion Preventi
 
 ![Figure 6 - Interface Creation Verified](https://github.com/iagsalazar1-cs/Network-Administration-and-Labs/blob/main/09-Suricata-Installation-and-Rule-Configuration-on-PFSense/images/Figure06_Interface_Creation_Verified.png)
 
-### Task 4: `WAN Categories` Configuration & `Pass List` Creation
+### Task 4: WAN Categories Configuration & Pass List Creation
 
 ![Figure 7 - WAN Categories Configuration & Pass List Creation](https://github.com/iagsalazar1-cs/Network-Administration-and-Labs/blob/main/09-Suricata-Installation-and-Rule-Configuration-on-PFSense/images/Figure07_WAN_Categories_Configuration.png)
 
@@ -61,7 +61,7 @@ This lab focuses on `Suricata` (`Intrusion Detection System`/`Intrusion Preventi
 
 ![Figure 8 - Pass List Creation Verified](https://github.com/iagsalazar1-cs/Network-Administration-and-Labs/blob/main/09-Suricata-Installation-and-Rule-Configuration-on-PFSense/images/Figure08_Pass_List_Creation_Verified.png)
 
-### Task 5: Suricata Interface Start & `Nmap` Scan Execution
+### Task 5: Suricata Interface Start & Nmap Scan Execution
 
 ![Figure 9 - Suricata Interface Start & Nmap Scan Execution](https://github.com/iagsalazar1-cs/Network-Administration-and-Labs/blob/main/09-Suricata-Installation-and-Rule-Configuration-on-PFSense/images/Figure09_Suricata_Interface_Start.png)
 
