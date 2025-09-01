@@ -2,7 +2,7 @@
 
 ### About this Repository
 
-This repository showcases my hands-on experience in various aspects of network administration, including **Cisco switch and router configuration**, **VLANs for network segmentation**, and comprehensive **firewall rule management** utilizing powerful tools like **pfSense** and **Suricata**. Through a series of practical projects, this collection provides detailed insights into my ability to effectively set up, secure, troubleshoot, and optimize diverse network infrastructures, ensuring robust and efficient connectivity.
+This repository showcases my hands-on experience in various aspects of network administration, including **Cisco switch and router configuration**, **VLANs for network segmentation**, and comprehensive **firewall rule management** utilizing powerful tools like **pfSense** and **Suricata**. Through a series of practical projects, this collection provides detailed insights into my ability to effectively set up, secure, troubleshoot, and optimize diverse network infrastructures, ensuring robust and efficient connectivity. This is a living document and will be updated as more projects are completed.
 
 ---
 
