@@ -1,4 +1,4 @@
-# Network Administration Projects
+# Network Administration Labs
 
 ### About this Repository
 
